@@ -2926,6 +2926,389 @@
 				)
 			)
 		)
+		(symbol "74xx_IEEE:74251"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 15.24 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74251"
+				(at 17.78 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74251_0_0"
+				(rectangle
+					(start -12.7 33.02)
+					(end 12.7 -35.56)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -16.256) (xy 1.016 -16.256) (xy 2.54 -19.304) (xy 4.064 -16.256) (xy 4.064 -16.256)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 19.304) (xy 1.016 19.304) (xy 2.54 16.256) (xy 4.064 19.304) (xy 4.064 19.304)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "MUX"
+					(at 0 12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 38.1 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74251_1_1"
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 7.62)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 7.62)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 22.86 0)
+					(length 7.62)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -30.48 0)
+					(length 7.62)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -25.4 0)
+					(length 7.62)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -20.32 0)
+					(length 7.62)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -15.24 0)
+					(length 7.62)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -5.08 0)
+					(length 7.62)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 0 0)
+					(length 7.62)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 7.62)
+					(name "I0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 17.78 180)
+					(length 7.62)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -17.78 180)
+					(length 7.62)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 27.94 0)
+					(length 7.62)
+					(name "~{E}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 7.62)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x30_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -9895,6 +10278,118 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx_IEEE:74251")
+		(at 113.03 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "011d8ebc-94e5-4362-a400-65109dc65ebb")
+		(property "Reference" "U9"
+			(at 115.2241 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC251"
+			(at 115.2241 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "8693f891-9b5e-4f0d-a421-ef09ef99b191")
+		)
+		(pin "9"
+			(uuid "cb7c952f-de43-4ffc-aaa4-8eeea999ab0a")
+		)
+		(pin "1"
+			(uuid "b88dcc68-8c91-4627-b6c7-870283de32b0")
+		)
+		(pin "3"
+			(uuid "aee89e45-bec9-4252-8989-697c0c0a0be0")
+		)
+		(pin "6"
+			(uuid "19ff00c4-6798-4e3d-bdf7-ece63a3cfe6e")
+		)
+		(pin "15"
+			(uuid "50f78943-d460-4427-9dc3-99a0a12120ff")
+		)
+		(pin "4"
+			(uuid "c9946ea7-bacd-4778-97a5-1da4a741edf8")
+		)
+		(pin "8"
+			(uuid "5fc7857f-b1d1-498b-bc57-68f4f82fab47")
+		)
+		(pin "16"
+			(uuid "3be4f02c-8422-47f5-bfa3-5c023890f401")
+		)
+		(pin "5"
+			(uuid "2aa91144-c397-4dd9-9d93-b0ea23ee15c4")
+		)
+		(pin "12"
+			(uuid "44be17fc-d31c-452f-b4fe-6124aaab7f01")
+		)
+		(pin "13"
+			(uuid "f633b2bd-38bd-4861-a722-e5eeda474c29")
+		)
+		(pin "14"
+			(uuid "c409b13a-c68e-4913-b195-b6e3a6c48693")
+		)
+		(pin "10"
+			(uuid "83e6b40b-d6a9-4503-a3f6-ccd17d623ab4")
+		)
+		(pin "2"
+			(uuid "2d8927f6-8c60-4968-a99c-251896a48308")
+		)
+		(pin "7"
+			(uuid "22abdd32-5ac3-49bd-9db7-ddaad9c0454e")
+		)
+		(instances
+			(project ""
+				(path "/8713c692-3521-4fe2-be35-d872021314f0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 104.14 208.28 0)
 		(unit 4)
@@ -10572,6 +11067,118 @@
 			(project "logicanalyzer"
 				(path "/8713c692-3521-4fe2-be35-d872021314f0"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74251")
+		(at 191.77 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ef75e6-f0ca-4398-90f0-8e9f01b2f204")
+		(property "Reference" "U8"
+			(at 193.9641 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC251"
+			(at 193.9641 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4d063d79-e87a-42bf-914e-4c3119550322")
+		)
+		(pin "12"
+			(uuid "6ae6ca67-172c-4089-8050-78b40be28d6b")
+		)
+		(pin "7"
+			(uuid "fa61c8d9-634c-4fa7-8f22-f18898fbca35")
+		)
+		(pin "14"
+			(uuid "3bf6c497-cc81-4445-8edd-aa08f7613dfa")
+		)
+		(pin "10"
+			(uuid "a2bc6907-6564-44f5-8aa6-946e5b09978f")
+		)
+		(pin "11"
+			(uuid "b6921704-eb67-4a4c-996d-361bb410543e")
+		)
+		(pin "5"
+			(uuid "9d76d44d-1f37-4904-bae0-6b79a947324b")
+		)
+		(pin "4"
+			(uuid "c52cf1db-5aff-4408-83fa-d00ea93e18e9")
+		)
+		(pin "1"
+			(uuid "89fa9030-9b5d-4141-9300-006f1e9776ae")
+		)
+		(pin "13"
+			(uuid "37b61c51-1e7e-40b4-90b4-5e5780c212c3")
+		)
+		(pin "2"
+			(uuid "88c3bb84-a52b-4cc3-8947-f27c65131ea2")
+		)
+		(pin "9"
+			(uuid "52f8f0dc-da3f-443c-888e-13378a283d76")
+		)
+		(pin "16"
+			(uuid "cae29612-7a1e-4d7f-bafa-ca72b5282c47")
+		)
+		(pin "3"
+			(uuid "f30780a7-025f-4f46-80e8-d9017efe6c9d")
+		)
+		(pin "15"
+			(uuid "4c8a986d-fbfe-44ae-84b7-8443c3c60a8b")
+		)
+		(pin "6"
+			(uuid "5f3f817e-cd60-40af-8c30-2d989f1e1be1")
+		)
+		(instances
+			(project ""
+				(path "/8713c692-3521-4fe2-be35-d872021314f0"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15475,117 +16082,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx_IEEE:74151")
-		(at 191.77 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91bb263a-c1ad-43d7-9aaa-c51cb026fd60")
-		(property "Reference" "U8"
-			(at 193.9641 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC151"
-			(at 193.9641 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "106994f6-64da-42b8-9405-f30e7bacb4c7")
-		)
-		(pin "3"
-			(uuid "20c6e3a0-c301-49e4-8e65-752097a736dd")
-		)
-		(pin "15"
-			(uuid "a08df9ba-d575-4075-925b-c70c3cb797df")
-		)
-		(pin "2"
-			(uuid "a9e72f01-d377-41a0-ab0c-47994c99f856")
-		)
-		(pin "9"
-			(uuid "fabfa7b6-73da-4799-92c9-902fd76c0da9")
-		)
-		(pin "16"
-			(uuid "dea2a006-702c-4105-af65-0e0d225ba006")
-		)
-		(pin "1"
-			(uuid "4bcc1c83-396e-4759-a2dd-7678d832243d")
-		)
-		(pin "13"
-			(uuid "7963d978-6a9f-47b8-aea7-c36058ad3f44")
-		)
-		(pin "10"
-			(uuid "aa435d4f-d5fd-4132-889e-e1f088c2427c")
-		)
-		(pin "11"
-			(uuid "67e118e7-626e-4db3-9574-d63b27ceabba")
-		)
-		(pin "4"
-			(uuid "89a816ad-e40b-4479-b451-5adfcd1ec8b2")
-		)
-		(pin "7"
-			(uuid "7d3d3be6-a414-4b6b-8595-9ab573e3c807")
-		)
-		(pin "5"
-			(uuid "2d31ddae-77d4-48d8-a98c-3ff13acb0aa1")
-		)
-		(pin "8"
-			(uuid "c3b091a2-09ff-45e2-97cf-b12022d1a9c6")
-		)
-		(pin "14"
-			(uuid "527c7df1-2b0a-48c6-921b-ed08d80cb768")
-		)
-		(pin "12"
-			(uuid "ffe6843b-1e26-4637-a9ae-978221ee2758")
-		)
-		(instances
-			(project "logicanalyzer"
-				(path "/8713c692-3521-4fe2-be35-d872021314f0"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 166.37 102.87 0)
 		(unit 1)
@@ -19044,118 +19540,6 @@
 			(project "logicanalyzer"
 				(path "/8713c692-3521-4fe2-be35-d872021314f0"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx_IEEE:74151")
-		(at 113.03 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e36dec96-0bbb-4903-9fce-b4110be150be")
-		(property "Reference" "U5"
-			(at 115.2241 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC151"
-			(at 115.2241 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 113.03 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "13e2ce2f-6760-4771-9dc0-99d85e675915")
-		)
-		(pin "3"
-			(uuid "75e97896-2ec6-48a2-8d39-f0487ba42af3")
-		)
-		(pin "15"
-			(uuid "71f908ea-a418-4a01-a8a9-f91d51fd9ceb")
-		)
-		(pin "2"
-			(uuid "4a0837fb-dfe6-4445-ba98-065ed45c0ac2")
-		)
-		(pin "9"
-			(uuid "8e5b0def-c9f5-4107-b317-94624fdacd18")
-		)
-		(pin "16"
-			(uuid "7536a6f7-ac1a-4491-89b1-87fc0c59d263")
-		)
-		(pin "1"
-			(uuid "b0284586-f756-46a9-80e1-3d4c16526541")
-		)
-		(pin "13"
-			(uuid "023a88dd-0d2f-4824-91b3-0f9efb294606")
-		)
-		(pin "10"
-			(uuid "3bfe9bb8-75ec-42ae-9bd6-bee2da73b181")
-		)
-		(pin "11"
-			(uuid "175b4dac-6e7a-4247-80d9-582238ef04dc")
-		)
-		(pin "4"
-			(uuid "6c19427b-4385-49b1-81f5-f81e504477eb")
-		)
-		(pin "7"
-			(uuid "2cac3f4f-1502-4f93-bb3d-38177de56883")
-		)
-		(pin "5"
-			(uuid "0fcb6592-d859-4fdb-972c-d2c41f6be7f3")
-		)
-		(pin "8"
-			(uuid "b471dc1d-a6a5-445b-a31f-c4c0a6d6a956")
-		)
-		(pin "14"
-			(uuid "30e05d86-aab8-46d8-90e1-adf6674921cc")
-		)
-		(pin "12"
-			(uuid "fd3092ce-4747-4b65-ac13-efb3f934271d")
-		)
-		(instances
-			(project ""
-				(path "/8713c692-3521-4fe2-be35-d872021314f0"
-					(reference "U5")
 					(unit 1)
 				)
 			)
