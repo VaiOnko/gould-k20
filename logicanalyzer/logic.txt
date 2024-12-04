@@ -1,0 +1,4 @@
+SMPL_X_is_A+B -> SMPL_X_is_B AND SMPL_X_is_C
+SMPL_X_is_B+C -> SMPL_X_is_B AND SMPL_X_is_A+C
+SMPL_X_is_A+B+C -> SMPL_X_is_C AND SMPL_X_is_A+C
+
