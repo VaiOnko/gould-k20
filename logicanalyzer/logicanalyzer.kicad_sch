@@ -8542,6 +8542,17 @@
 		)
 		(uuid "ff22b0ff-eec3-47bf-862e-4735f7b1d13e")
 	)
+	(label "Pin 4 high is state mode, low is timing mode"
+		(at 344.17 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "365a7c1f-a462-45e2-a1cb-a2873f388b01")
+	)
 	(global_label "C4"
 		(shape input)
 		(at 322.58 168.91 180)
@@ -13320,7 +13331,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 365.76 142.24 0)
+		(at 392.43 186.69 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13329,7 +13340,7 @@
 		(fields_autoplaced yes)
 		(uuid "32ce0042-85f9-4345-916d-04778a9aa9c5")
 		(property "Reference" "U1"
-			(at 365.76 133.35 0)
+			(at 392.43 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +13348,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 365.76 135.89 0)
+			(at 392.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +13356,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 365.76 142.24 0)
+			(at 392.43 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13354,7 +13365,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 365.76 142.24 0)
+			(at 392.43 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +13374,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 365.76 142.24 0)
+			(at 392.43 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +15385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 134.62 270)
+		(at 386.08 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15383,7 +15394,7 @@
 		(fields_autoplaced yes)
 		(uuid "5660b7a3-dfed-45bc-a7ba-9db9abe15c72")
 		(property "Reference" "#PWR021"
-			(at 353.06 134.62 0)
+			(at 379.73 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15392,7 +15403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 134.6199 90)
+			(at 382.27 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15401,7 +15412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 134.62 0)
+			(at 386.08 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15410,7 +15421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 134.62 0)
+			(at 386.08 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,7 +15430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 134.62 0)
+			(at 386.08 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +16172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical"
 			(at 327.66 151.13 0)
 			(effects
 				(font
@@ -16717,7 +16728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 160.02 0)
+		(at 386.08 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16726,7 +16737,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d5c0aa5-af3a-47cb-a637-714b50cc9e22")
 		(property "Reference" "#PWR027"
-			(at 359.41 166.37 0)
+			(at 386.08 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16735,7 +16746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 165.1 0)
+			(at 386.08 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +16754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 160.02 0)
+			(at 386.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,7 +16763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 160.02 0)
+			(at 386.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +16772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 160.02 0)
+			(at 386.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17893,7 +17904,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 367.03 134.62 0)
+		(at 393.7 179.07 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17902,7 +17913,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f985b71-f60f-4076-b6c1-f2a6e67942da")
 		(property "Reference" "U1"
-			(at 367.03 125.73 0)
+			(at 393.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17910,7 +17921,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 367.03 128.27 0)
+			(at 393.7 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17918,7 +17929,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 367.03 134.62 0)
+			(at 393.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17927,7 +17938,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 367.03 134.62 0)
+			(at 393.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17936,7 +17947,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 367.03 134.62 0)
+			(at 393.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,7 +18182,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC86")
-		(at 367.03 157.48 0)
+		(at 393.7 201.93 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18180,7 +18191,7 @@
 		(fields_autoplaced yes)
 		(uuid "95dc91c6-4b28-4f5f-aeb6-3d35712162a2")
 		(property "Reference" "U4"
-			(at 366.7252 148.59 0)
+			(at 393.3952 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18188,7 +18199,7 @@
 			)
 		)
 		(property "Value" "74HC86"
-			(at 366.7252 151.13 0)
+			(at 393.3952 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18196,7 +18207,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 367.03 157.48 0)
+			(at 393.7 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18205,7 +18216,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC86"
-			(at 367.03 157.48 0)
+			(at 393.7 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18214,7 +18225,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
-			(at 367.03 157.48 0)
+			(at 393.7 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19163,7 +19174,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 358.14 142.24 270)
+		(at 384.81 186.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19171,7 +19182,7 @@
 		(dnp no)
 		(uuid "a69ddd87-7795-4aa0-afef-409f1d80662c")
 		(property "Reference" "#PWR022"
-			(at 351.79 142.24 0)
+			(at 378.46 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19180,7 +19191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 142.2399 90)
+			(at 382.27 186.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19189,7 +19200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 142.24 0)
+			(at 384.81 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19198,7 +19209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 142.24 0)
+			(at 384.81 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19207,7 +19218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 142.24 0)
+			(at 384.81 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19708,7 +19719,7 @@
 		(dnp no)
 		(uuid "adbbf35a-ad71-48b9-9200-9cfd432e912f")
 		(property "Reference" "U1"
-			(at 367.03 144.78 0)
+			(at 393.7 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20458,7 +20469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 154.94 270)
+		(at 386.08 199.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20467,7 +20478,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7dbac5f-4053-4dc9-bbd9-3ac080fe1076")
 		(property "Reference" "#PWR026"
-			(at 353.06 154.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +20487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 154.9399 90)
+			(at 382.27 199.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20485,7 +20496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 154.94 0)
+			(at 386.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20494,7 +20505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 154.94 0)
+			(at 386.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20503,7 +20514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 154.94 0)
+			(at 386.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
