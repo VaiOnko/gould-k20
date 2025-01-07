@@ -14,3 +14,4 @@ The machine also came with an 8-channel timing mode probe. From what I understan
 
 The directory "logicanalyzer" contains the KiCad project for the probe. 
 The directory "pictures" contains detailed pictures of the unit.
+The directory "ROMs" contains dumps from all the ROMs in the system.
