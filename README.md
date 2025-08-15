@@ -1,6 +1,6 @@
 # gould-k20
 
-**The probe is currently untested**
+This probe is tested and works well according to my test without knowing how the proper thing operates,
 
 This is my project to create a reproduction state mode probe for the Gould K20 logic analyzer and document the unit.
 
